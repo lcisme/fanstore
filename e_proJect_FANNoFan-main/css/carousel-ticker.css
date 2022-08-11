@@ -1,0 +1,28 @@
+.carouselTicker {
+  overflow: hidden;
+  float: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.carouselTicker__list {
+  margin: 10px 0;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.carouselTicker__item {
+  margin: 0;
+  float: left;
+  border: 4px solid #5ab337;
+  background-color:#5ab337;
+  margin-left: 5px;
+  width: 101px;
+  height: 40px;
+  color:#fff;
+  line-height: 34px;
+  text-align: center;
+}
